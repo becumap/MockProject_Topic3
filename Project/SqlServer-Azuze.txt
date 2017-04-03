@@ -1,0 +1,4 @@
+server name : sims.database.windows.net
+Authentication : SQL Server Authentication
+Login : eagle_eye
+Pass : Aa123456
