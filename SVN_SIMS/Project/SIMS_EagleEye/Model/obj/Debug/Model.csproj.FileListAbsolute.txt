@@ -1,0 +1,10 @@
+D:\SVN_SIMS\Project\SIMS_EagleEye\Model\bin\Debug\Model.dll.config
+D:\SVN_SIMS\Project\SIMS_EagleEye\Model\bin\Debug\Model.dll
+D:\SVN_SIMS\Project\SIMS_EagleEye\Model\bin\Debug\Model.pdb
+D:\SVN_SIMS\Project\SIMS_EagleEye\Model\bin\Debug\EntityFramework.dll
+D:\SVN_SIMS\Project\SIMS_EagleEye\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\SVN_SIMS\Project\SIMS_EagleEye\Model\bin\Debug\EntityFramework.xml
+D:\SVN_SIMS\Project\SIMS_EagleEye\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\SVN_SIMS\Project\SIMS_EagleEye\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\SVN_SIMS\Project\SIMS_EagleEye\Model\obj\Debug\Model.dll
+D:\SVN_SIMS\Project\SIMS_EagleEye\Model\obj\Debug\Model.pdb

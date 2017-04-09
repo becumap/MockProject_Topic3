@@ -1,0 +1,47 @@
+﻿
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang chủ</title>
+    @*<!-- Bootstrap Styles-->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/bootstrap.css">
+    <!-- FontAwesome Styles-->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/FontAwesome.css">
+    <!-- Morris Chart Styles-->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/morris.css">
+    <!-- Custom Styles-->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/custom-styles.css">
+    <!-- Google Fonts-->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/GoogleFonts.css">*@
+    @Styles.Render("~/bundles/csscore")
+</head>
+
+<body>
+    <div id="wrapper">
+        @{Html.RenderAction("TopNavResult", "Home");}
+        <!--/. NAV TOP  -->
+        @{Html.RenderAction("SideNavResult", "Home");}
+        <!-- /. NAV SIDE  -->
+        <div id="page-wrapper">
+            <div id="page-inner">
+                @RenderBody()
+            </div>
+        </div>
+
+    </div>
+@*<!-- /. WRAPPER  -->
+    <!-- JS Scripts-->
+    <!-- jQuery Js -->
+    <script src="~/Content/js/jquery-1.10.2.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="~/Content/js/bootstrap.min.js"></script>
+    <!-- Metis Menu Js -->
+    <script src="~/Content/js/jquery.metisMenu.js"></script>
+    <!-- Custom Js -->
+    <script src="~/Content/js/custom-scripts.js"></script>*@
+    @Scripts.Render("~/bundles/jscore");
+</body>
+
+</html>
